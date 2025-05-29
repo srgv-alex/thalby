@@ -1,0 +1,21 @@
+.nav {
+	margin-right: 111px;
+}
+.nav-list {
+	display: flex;
+	gap: 32px;
+}
+.nav__item {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.65;
+
+	a {
+		text-decoration: none;
+		color: #1c1b1b;
+		transition: color 0.3s;
+		&:hover {
+			color: rgba(28, 27, 27, 0.7);
+		}
+	}
+}

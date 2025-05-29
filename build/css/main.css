@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Manrope:300,regular,700,800);
 /* Reset and base styles  */
 * {
   padding: 0px;
@@ -14,7 +13,9 @@
 }
 
 /* Links */
-a, a:link, a:visited {
+a,
+a:link,
+a:visited {
   text-decoration: none;
 }
 
@@ -23,16 +24,28 @@ a:hover {
 }
 
 /* Common */
-aside, nav, footer, header, section, main {
+aside,
+nav,
+footer,
+header,
+section,
+main {
   display: block;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-size: inherit;
   font-weight: inherit;
 }
 
-ul, ul li {
+ul,
+ul li {
   list-style: none;
 }
 
@@ -40,7 +53,8 @@ img {
   vertical-align: top;
 }
 
-img, svg {
+img,
+svg {
   max-width: 100%;
   height: auto;
 }
@@ -50,7 +64,10 @@ address {
 }
 
 /* Form */
-input, textarea, button, select {
+input,
+textarea,
+button,
+select {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
@@ -61,7 +78,8 @@ input::-ms-clear {
   display: none;
 }
 
-button, input[type=submit] {
+button,
+input[type=submit] {
   display: inline-block;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -70,8 +88,10 @@ button, input[type=submit] {
   cursor: pointer;
 }
 
-input:focus, input:active,
-button:focus, button:active {
+input:focus,
+input:active,
+button:focus,
+button:active {
   outline: none;
 }
 
@@ -93,9 +113,9 @@ html {
 }
 
 body {
-  font-family: "Manrope", sans-serif;
-  font-size: 16px;
-  letter-spacing: 0.3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
   color: #000;
 }
 
@@ -117,7 +137,7 @@ p + p {
 }
 
 .container {
-  width: 1200px;
+  width: 1094px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -139,6 +159,61 @@ body {
 
 .footer {
   margin-top: auto;
+}
+
+.header {
+  padding-block: 17px;
+}
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-icon {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.header-icon:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.logo img {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.logo img:hover {
+  -webkit-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+.action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+  margin-left: auto;
+}
+.action:nth-last-child(1) {
+  padding-right: 3px;
+}
+.action a {
+  text-decoration: none;
+}
+.action svg {
+  padding-bottom: 5px;
 }
 
 .none {
@@ -229,6 +304,32 @@ a.btn--wide {
 .title-3 {
   font-weight: 600;
   font-size: 20px;
+}
+
+.nav {
+  margin-right: 111px;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+}
+
+.nav__item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.65;
+}
+.nav__item a {
+  text-decoration: none;
+  color: #1c1b1b;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.nav__item a:hover {
+  color: rgba(28, 27, 27, 0.7);
 }
 
 .input {

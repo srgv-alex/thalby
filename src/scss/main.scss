@@ -11,6 +11,7 @@
 
 // Блоки, Элементы
 @use './blocks/utils';
+@use './blocks/icon';
 @use './blocks/logo';
 @use './blocks/btns';
 @use './blocks/titles';
@@ -18,5 +19,3 @@
 @use './blocks/input';
 
 // Скрипты
-
-@use './blocks/fancy-box';

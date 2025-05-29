@@ -1,0 +1,41 @@
+.header {
+	padding-block: 17px;
+
+	&__wrapper {
+		display: flex;
+
+		align-items: center;
+	}
+	&-icon {
+		transition: transform 0.3s;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}
+
+.logo {
+	img {
+		transition: transform 0.3s;
+		&:hover {
+			transform: rotate(10deg);
+		}
+	}
+}
+.action {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	margin-left: auto;
+	&:nth-last-child(1) {
+		padding-right: 3px;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	svg {
+		padding-bottom: 5px;
+	}
+}
