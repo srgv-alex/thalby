@@ -1,9 +1,12 @@
 .header {
-	padding-block: 17px;
+	padding-block: 20px 3px;
+	@media (max-width: 1199px) {
+		display: flex;
+		justify-content: space-between;
+	}
 
 	&__wrapper {
 		display: flex;
-
 		align-items: center;
 	}
 	&-icon {

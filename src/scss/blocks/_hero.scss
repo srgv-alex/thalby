@@ -1,0 +1,39 @@
+.hero {
+	padding-block: 23px 10px;
+	background-color: #f0efeb;
+
+	&__title {
+		margin-bottom: 39px;
+	}
+
+	&-btn {
+		transform: translate(5px, -14px);
+	}
+}
+
+.hero__wrapper {
+	display: flex;
+	align-items: center;
+	gap: 184px;
+}
+.hero-content {
+	max-width: 544px;
+}
+
+.hero-text {
+	margin-bottom: 26px;
+	font-size: 24px;
+}
+.button {
+}
+.hero-img {
+	position: relative;
+	top: -13px;
+	left: 17px;
+	display: flex;
+	flex-shrink: 0;
+
+	img {
+		object-fit: cover;
+	}
+}

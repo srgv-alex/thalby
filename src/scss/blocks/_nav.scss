@@ -1,5 +1,8 @@
 .nav {
 	margin-right: 111px;
+	@media (max-width: 767px) {
+		display: none;
+	}
 }
 .nav-list {
 	display: flex;
