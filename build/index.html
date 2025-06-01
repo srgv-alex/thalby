@@ -3,8 +3,8 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <meta name="viewport" content="width=360, initial-scale=1, shrink-to-fit=no"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta name="viewport" content="width=360, initial-scale=1, shrink-to-fit=no">
 
 	<title>Стартовый шаблон</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +25,19 @@
 			fill="black" />
 	</symbol>
 </svg>
-
+<div class="mobile-nav-overlay"></div>
+<div class="mobile-nav">
+	<div class="mobile-nav__panel">
+		<div class="mobile-nav__panel-content">
+			<div class="column-nav">
+				<a href="#!">Shop</a>
+				<a href="#!">Collections</a>
+				<a href="#!">Try a Free Guide</a>
+				<a href="#!">Stories</a>
+			</div>
+		</div>
+	</div>
+</div>
 <header class="header">
 	<div class="container">
 		<div class="header__wrapper">
@@ -45,6 +57,12 @@
 					</li>
 				</ul>
 			</nav>
+			<div class="header-nav-btn">
+				<button type='button' class="mobile-nav-btn" id="closeMobileNav">
+					<span class='mobile-nav-btn__icon'></span>
+				</button>
+			</div>
+
 			<div class="logo">
 				<a href="#!">
 					<img src="./../img/logo.png" alt="logo">
@@ -77,12 +95,12 @@
 		</div>
 	</div>
 </header>
-	<section class="hero none">
+	<section class="hero">
 	<div class="container">
 		<div class="hero__wrapper">
 			<div class="hero-content">
 				<div class="hero__title">
-					<h1 class="title">Fall deeper in love with <br> humanity.</h1>
+					<h1 class="title title-hero">Fall deeper in love with <br> humanity.</h1>
 				</div>
 				<div class="hero-text">
 					<p>
@@ -98,22 +116,6 @@
 	</div>
 </section>
 
-	<section class="mobile-nav">
-		<h2 class="visually-hidden">Мобильная навигация</h2>
-
-		<button class="mobile-nav__btn" id="closeMobileNav">
-			<img src="./img/icons/nav-btn-close.svg" alt="Close navigation">
-		</button>
-
-		<div class="mobile-nav__body">
-			<ul class="mobile-nav-list">
-				<li><a href="#">Shop</a></li>
-				<li><a href="#">Collections</a></li>
-				<li><a href="#">Try a Free Guide</a></li>
-				<li><a href="#">Stories</a></li>
-			</ul>
-		</div>
-	</section>
 
 	<main class="main">
 		<div class="container">
@@ -132,7 +134,7 @@
 
 
 
-	<script src="./../js/main.js"></script>
+	<script src="./js/main.js"></script>
 
 </body>
 

@@ -8,6 +8,9 @@
 	&__wrapper {
 		display: flex;
 		align-items: center;
+		@media (max-width: 767px) {
+			justify-content: space-between;
+		}
 	}
 	&-icon {
 		transition: transform 0.3s;
@@ -18,8 +21,13 @@
 }
 
 .logo {
+	a {
+		display: inline-flex;
+	}
+
 	img {
 		transition: transform 0.3s;
+
 		&:hover {
 			transform: rotate(10deg);
 		}
@@ -30,6 +38,9 @@
 	align-items: center;
 	gap: 25px;
 	margin-left: auto;
+	@media (max-width: 767px) {
+		margin-left: 0;
+	}
 	&:nth-last-child(1) {
 		padding-right: 3px;
 	}

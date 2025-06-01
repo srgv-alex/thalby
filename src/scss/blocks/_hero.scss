@@ -4,6 +4,9 @@
 
 	&__title {
 		margin-bottom: 39px;
+		@media (max-width: 425px) {
+			margin-bottom: 15px;
+		}
 	}
 
 	&-btn {
@@ -15,9 +18,21 @@
 	display: flex;
 	align-items: center;
 	gap: 184px;
+	@media (max-width: 991px) {
+		gap: 68px;
+	}
+	@media (max-width: 767px) {
+		flex-direction: column;
+	}
+	@media (max-width: 425px) {
+		gap: 20px;
+	}
 }
 .hero-content {
 	max-width: 544px;
+	@media (max-width: 767px) {
+		text-align: center;
+	}
 }
 
 .hero-text {
@@ -32,6 +47,10 @@
 	left: 17px;
 	display: flex;
 	flex-shrink: 0;
+	@media (max-width: 1199px) {
+		position: static;
+		flex-shrink: 1;
+	}
 
 	img {
 		object-fit: cover;

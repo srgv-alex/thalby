@@ -55,6 +55,7 @@ task('watch', function () {
 	watch('./src/**/*.html', parallel('html'));
 	watch('./src/scss/**/*.scss', parallel('sass'));
 	watch('./src/img/**/*.*', parallel('images'));
+	watch('./src/js/**/*.js', parallel('js'));
 });
 
 task(
