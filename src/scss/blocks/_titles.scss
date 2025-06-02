@@ -5,7 +5,7 @@
 
 .title-1 {
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 36px;
 }
 
 .title-2 {
@@ -24,5 +24,15 @@
 	}
 	@media (max-width: 425px) {
 		font-size: 30px;
+	}
+}
+
+.best__title {
+	text-align: center;
+}
+
+.title-advantages {
+	@media (max-width: 360px) {
+		font-size: 25px;
 	}
 }

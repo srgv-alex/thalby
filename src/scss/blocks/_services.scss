@@ -1,0 +1,65 @@
+.descr {
+	background: rgba(204, 204, 204, 0.3);
+}
+
+.persone__wrapper {
+	display: flex;
+	align-items: center;
+	column-gap: 50px;
+	padding-block: 77px 50px;
+	@media (max-width: 991px) {
+		padding-block: 30px 20px;
+	}
+	@media (max-width: 767px) {
+		flex-direction: column;
+		text-align: center;
+		row-gap: 20px;
+	}
+}
+
+.persone-reverse {
+	background: rgba(204, 204, 204, 0.6);
+	.descr-content {
+		max-width: 514px;
+		text-align: right;
+	}
+}
+
+.wrapper-persone {
+	flex-direction: row-reverse;
+	@media (max-width: 767px) {
+		display: flex;
+		flex-direction: column;
+		row-gap: 20px;
+		text-align: center;
+		.descr-content {
+			text-align: center;
+		}
+	}
+}
+.descr__img {
+	flex-shrink: 0;
+}
+.descr-content {
+	max-width: 532px;
+}
+.descr__title {
+	margin-bottom: 31px;
+}
+
+.descr-text {
+	margin-bottom: 11px;
+	@media (max-width: 360px) {
+		font-size: 19px;
+	}
+}
+.descr-content__link {
+	font-weight: 700;
+	font-size: 17px;
+	color: #000;
+	text-decoration: underline;
+	transition: color 0.3s;
+	&:hover {
+		color: rgba(28, 27, 27, 0.7);
+	}
+}
