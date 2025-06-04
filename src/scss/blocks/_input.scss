@@ -1,7 +1,8 @@
 .input {
-	padding: 10px 20px;
-	border: 1px solid #c0c0c0;
-	border-radius: 8px;
+	padding: 9px 10px 12px 8px;
+	border: 1px solid #000;
+	width: 100%;
+	font-size: 14px;
 	color: #000;
 
 	transition: all 0.2s ease-in;
@@ -10,4 +11,21 @@
 	&:focus {
 		border: 1px solid #3c82d3;
 	}
+
+	&::placeholder {
+		font-size: 14px;
+		color: #a0a0a0;
+	}
+}
+
+.input-50 {
+	flex: 1;
+	@media (max-width: 360px) {
+		gap: 18px;
+		flex: none;
+	}
+}
+
+.input:focus-visible {
+	box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
 }

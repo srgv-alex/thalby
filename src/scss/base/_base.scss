@@ -1,27 +1,18 @@
-@import url(https://fonts.googleapis.com/css?family=Manrope:300,regular,700,800);
-
 html {
 	scroll-behavior: smooth;
 }
 
 body {
-	font-family: 'Manrope', sans-serif;
-	font-size: 16px;
-	letter-spacing: 0.3px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
 	color: #000;
 }
 
 a,
 a:link,
 a:visited {
-	color: #0f7dff;
 	text-decoration: underline;
-}
-
-a:focus,
-button:focus {
-	outline-offset: 1px;
-	outline: #005fcc auto 1px;
 }
 
 p + p {

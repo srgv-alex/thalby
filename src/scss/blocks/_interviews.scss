@@ -1,0 +1,76 @@
+.gray-background {
+	height: 480px;
+	background: #f0f0f0;
+	@media (max-width: 767px) {
+		height: auto;
+	}
+}
+
+.interviews-title {
+	max-width: 705px;
+	margin: 0 auto 290px;
+	text-align: center;
+	@media (max-width: 767px) {
+		margin: 0 auto 28px;
+	}
+}
+
+.interviews-title.title-1 {
+	@media (max-width: 767px) {
+		font-size: 25px;
+	}
+}
+
+.profiles {
+	position: relative;
+	top: -188px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 100px;
+	@media (max-width: 1100px) {
+		gap: 62px;
+	}
+	@media (max-width: 1024px) {
+		gap: 45px;
+	}
+	@media (max-width: 767px) {
+		position: static;
+	}
+}
+.profile {
+	max-width: 288px;
+	text-align: center;
+	@media (max-width: 991px) {
+		flex-grow: 1;
+		max-width: 100%;
+	}
+}
+
+.profile__img {
+	margin-bottom: 35px;
+}
+.profile__quote {
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 22px;
+	letter-spacing: 0.03em;
+	@media (max-width: 767px) {
+		margin-bottom: 20px;
+	}
+}
+.profile__name {
+	margin-bottom: 25px;
+	font-size: 19px;
+	@media (max-width: 767px) {
+		margin-bottom: 10px;
+	}
+}
+.profile__link {
+	font-weight: 700;
+	font-size: 18px;
+	color: #000;
+	transition: color 0.3s;
+	&:hover {
+		color: rgba(28, 27, 27, 0.7);
+	}
+}

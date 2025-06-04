@@ -7,16 +7,23 @@
 // Секции
 @use './blocks/sticky-footer';
 @use './blocks/header';
+@use './blocks/hero';
+@use './blocks/advantages';
+@use './blocks/services';
+@use './blocks/uniqueness';
+@use './blocks/interviews';
+@use './blocks/contacts';
 @use './blocks/footer';
 
 // Блоки, Элементы
 @use './blocks/utils';
+@use './blocks/icon';
 @use './blocks/logo';
 @use './blocks/btns';
 @use './blocks/titles';
 @use './blocks/nav';
 @use './blocks/input';
+@use './blocks/mobile-nav';
+@use './blocks/card';
 
 // Скрипты
-
-@use './blocks/fancy-box';

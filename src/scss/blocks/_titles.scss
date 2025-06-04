@@ -1,19 +1,52 @@
 .title {
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 60px;
 }
 
 .title-1 {
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 36px;
 }
 
 .title-2 {
-	font-weight: 700;
-	font-size: 26px;
+	font-weight: 400;
+	font-size: 36px;
 }
 
 .title-3 {
-	font-weight: 600;
-	font-size: 20px;
+	font-size: 14px;
+}
+
+.title-hero {
+	@media (max-width: 1199px) {
+		font-size: 45px;
+	}
+	@media (max-width: 425px) {
+		font-size: 30px;
+	}
+}
+
+.best__title {
+	text-align: center;
+}
+
+.title-advantages {
+	@media (max-width: 360px) {
+		font-size: 25px;
+	}
+}
+
+.uniqueness-title {
+	max-width: 450px;
+	margin: 0 auto;
+	margin-bottom: 69px;
+	@media (max-width: 425px) {
+		margin-bottom: 40px;
+	}
+}
+
+.uniqueness-title.title-2 {
+	@media (max-width: 425px) {
+		font-size: 25px;
+	}
 }
