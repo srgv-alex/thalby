@@ -10,7 +10,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@0,400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./../css/main.css">
+	<link rel="stylesheet" href="./css/main.css">
 
 	<link rel="icon" type="image/x-icon" href="#!">
 	<link rel="apple-touch-icon" sizes="180x180" href="#!">
@@ -19,384 +19,395 @@
 <body class="sticky-footer">
 
 	<svg style='display: none;' xmlns="http://www.w3.org/2000/svg">
-	<symbol id="instagram" width="21" height="20" viewBox=" 0 0 21 20">
-		<path
-			d="M18.2199 14.13C18.2199 15.38 17.857 16.387 17.132 17.072C16.405 17.758 15.398 18.122 14.188 18.122H5.96195C4.75195 18.122 3.74395 17.758 3.01795 17.072C2.29295 16.347 1.92795 15.339 1.92795 14.089V5.822C1.92795 4.612 5.19195 0.702 5.91695 -0.0240002C2.41195 -0.0220002 0.0749512 2.316 0.0749512 5.822V14.088C0.0749512 15.822 0.638951 17.315 1.76795 18.403C2.85695 19.451 4.30795 19.976 5.96195 19.976H14.188C15.921 19.976 17.3729 19.411 18.4209 18.403C19.51 17.355 20.075 15.863 20.075 14.129V5.822C20.075 4.129 19.51 2.677 18.462 1.629C17.4139 0.54 15.92 -0.0240002 14.228 -0.0240002H5.91995L3.01795 2.88C3.70395 2.194 4.75195 1.831 5.96195 1.831H14.268C15.478 1.831 16.486 2.194 17.212 2.921C17.898 3.646 18.2999 4.654 18.2999 5.823V14.13H18.2199ZM15.357 5.943C15.5133 5.94757 15.6689 5.92073 15.8147 5.86407C15.9605 5.8074 16.0934 5.72206 16.2056 5.61311C16.3178 5.50415 16.4069 5.37379 16.4679 5.22974C16.5288 5.0857 16.5601 4.93089 16.5601 4.7745C16.5601 4.61811 16.5288 4.4633 16.4679 4.31926C16.4069 4.17521 16.3178 4.04485 16.2056 3.93589C16.0934 3.82693 15.9605 3.7416 15.8147 3.68493C15.6689 3.62827 15.5133 3.60143 15.357 3.606C15.053 3.61489 14.7644 3.7419 14.5525 3.96007C14.3407 4.17823 14.2221 4.47038 14.2221 4.7745C14.2221 5.07862 14.3407 5.37077 14.5525 5.58893C14.7644 5.8071 15.053 5.93411 15.357 5.943ZM10.075 13.283C9.1991 13.2791 8.36024 12.9294 7.74091 12.31C7.12158 11.6907 6.7719 10.8519 6.76795 9.976C6.7719 9.10014 7.12158 8.26129 7.74091 7.64196C8.36024 7.02263 9.1991 6.67295 10.075 6.669C10.9508 6.67295 11.7897 7.02263 12.409 7.64196C13.0283 8.26129 13.378 9.10014 13.382 9.976C13.3777 10.8517 13.0279 11.6903 12.4086 12.3094C11.7893 12.9285 10.9506 13.2781 10.075 13.282V13.283ZM10.075 4.815C7.25295 4.815 4.91395 7.113 4.91395 9.976C4.9121 10.6543 5.04434 11.3262 5.30305 11.9532C5.56176 12.5802 5.94184 13.1499 6.42145 13.6295C6.90106 14.1091 7.47074 14.4892 8.09774 14.7479C8.72473 15.0066 9.39668 15.1388 10.075 15.137C12.938 15.137 15.235 12.798 15.235 9.977C15.235 7.153 12.897 4.815 10.075 4.815Z"
-			fill="black" />
-	</symbol>
-</svg>
-<div class="mobile-nav-overlay"></div>
-<div class="mobile-nav">
-	<div class="mobile-nav__panel">
-		<div class="mobile-nav__panel-content">
-			<div class="column-nav">
-				<a href="#!">Shop</a>
-				<a href="#!">Collections</a>
-				<a href="#!">Try a Free Guide</a>
-				<a href="#!">Stories</a>
+		<symbol id="instagram" width="21" height="20" viewBox=" 0 0 21 20">
+			<path
+				d="M18.2199 14.13C18.2199 15.38 17.857 16.387 17.132 17.072C16.405 17.758 15.398 18.122 14.188 18.122H5.96195C4.75195 18.122 3.74395 17.758 3.01795 17.072C2.29295 16.347 1.92795 15.339 1.92795 14.089V5.822C1.92795 4.612 5.19195 0.702 5.91695 -0.0240002C2.41195 -0.0220002 0.0749512 2.316 0.0749512 5.822V14.088C0.0749512 15.822 0.638951 17.315 1.76795 18.403C2.85695 19.451 4.30795 19.976 5.96195 19.976H14.188C15.921 19.976 17.3729 19.411 18.4209 18.403C19.51 17.355 20.075 15.863 20.075 14.129V5.822C20.075 4.129 19.51 2.677 18.462 1.629C17.4139 0.54 15.92 -0.0240002 14.228 -0.0240002H5.91995L3.01795 2.88C3.70395 2.194 4.75195 1.831 5.96195 1.831H14.268C15.478 1.831 16.486 2.194 17.212 2.921C17.898 3.646 18.2999 4.654 18.2999 5.823V14.13H18.2199ZM15.357 5.943C15.5133 5.94757 15.6689 5.92073 15.8147 5.86407C15.9605 5.8074 16.0934 5.72206 16.2056 5.61311C16.3178 5.50415 16.4069 5.37379 16.4679 5.22974C16.5288 5.0857 16.5601 4.93089 16.5601 4.7745C16.5601 4.61811 16.5288 4.4633 16.4679 4.31926C16.4069 4.17521 16.3178 4.04485 16.2056 3.93589C16.0934 3.82693 15.9605 3.7416 15.8147 3.68493C15.6689 3.62827 15.5133 3.60143 15.357 3.606C15.053 3.61489 14.7644 3.7419 14.5525 3.96007C14.3407 4.17823 14.2221 4.47038 14.2221 4.7745C14.2221 5.07862 14.3407 5.37077 14.5525 5.58893C14.7644 5.8071 15.053 5.93411 15.357 5.943ZM10.075 13.283C9.1991 13.2791 8.36024 12.9294 7.74091 12.31C7.12158 11.6907 6.7719 10.8519 6.76795 9.976C6.7719 9.10014 7.12158 8.26129 7.74091 7.64196C8.36024 7.02263 9.1991 6.67295 10.075 6.669C10.9508 6.67295 11.7897 7.02263 12.409 7.64196C13.0283 8.26129 13.378 9.10014 13.382 9.976C13.3777 10.8517 13.0279 11.6903 12.4086 12.3094C11.7893 12.9285 10.9506 13.2781 10.075 13.282V13.283ZM10.075 4.815C7.25295 4.815 4.91395 7.113 4.91395 9.976C4.9121 10.6543 5.04434 11.3262 5.30305 11.9532C5.56176 12.5802 5.94184 13.1499 6.42145 13.6295C6.90106 14.1091 7.47074 14.4892 8.09774 14.7479C8.72473 15.0066 9.39668 15.1388 10.075 15.137C12.938 15.137 15.235 12.798 15.235 9.977C15.235 7.153 12.897 4.815 10.075 4.815Z"
+				fill="black" />
+		</symbol>
+	</svg>
+	<div class="mobile-nav-overlay"></div>
+	<div class="mobile-nav">
+		<div class="mobile-nav__panel">
+			<div class="mobile-nav__panel-content">
+				<div class="column-nav">
+					<a href="#!">Shop</a>
+					<a href="#!">Collections</a>
+					<a href="#!">Try a Free Guide</a>
+					<a href="#!">Stories</a>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<header class="header">
-	<div class="container">
-		<div class="header__wrapper">
-			<nav class="nav">
-				<ul class="nav-list">
-					<li class="nav__item">
-						<a href="#!">Shop</a>
-					</li>
-					<li class="nav__item">
-						<a href="#!">Collections</a>
-					</li>
-					<li class="nav__item">
-						<a href="#!">Try a Free Guide</a>
-					</li>
-					<li class="nav__item">
-						<a href="#!">Stories</a>
-					</li>
-				</ul>
-			</nav>
-			<div class="header-nav-btn">
-				<button type='button' class="mobile-nav-btn" id="closeMobileNav">
-					<span class='mobile-nav-btn__icon'></span>
-				</button>
-			</div>
+	<header class="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<nav class="nav">
+					<ul class="nav-list">
+						<li class="nav__item">
+							<a href="#!">Shop</a>
+						</li>
+						<li class="nav__item">
+							<a href="#!">Collections</a>
+						</li>
+						<li class="nav__item">
+							<a href="#!">Try a Free Guide</a>
+						</li>
+						<li class="nav__item">
+							<a href="#!">Stories</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header-nav-btn">
+					<button type='button' class="mobile-nav-btn" id="closeMobileNav">
+						<span class='mobile-nav-btn__icon'></span>
+					</button>
+				</div>
 
-			<div class="logo">
-				<a href="#!">
-					<img src="./../img/logo.png" alt="logo">
-				</a>
-			</div>
-			<div class="action">
-				<a href="#!">
-					<svg class='header-icon' width='21' height='20'>
-						<use href='#instagram'></use>
-					</svg>
-				</a>
-				<a href="#!">
-					<svg class='header-icon' width="22" height="22" fill="none">
-						<path d="M15.873 15.884L20.965 20.976" stroke="black" stroke-width="2" stroke-miterlimit="20" />
-						<path
-							d="M18.273 10.088C18.273 12.262 17.4094 14.3469 15.8722 15.8842C14.3349 17.4214 12.25 18.285 10.076 18.285C7.90205 18.285 5.81711 17.4214 4.27987 15.8842C2.74264 14.3469 1.87903 12.262 1.87903 10.088C1.87903 7.91402 2.74264 5.82908 4.27987 4.29184C5.81711 2.75461 7.90205 1.891 10.076 1.891C12.25 1.891 14.3349 2.75461 15.8722 4.29184C17.4094 5.82908 18.273 7.91402 18.273 10.088Z"
-							stroke="black" stroke-width="2" stroke-miterlimit="20" />
-					</svg>
-				</a>
-				<a href="#!">
-					<svg class='header-icon' width="18" height="24" fill="none">
-						<path
-							d="M3.51794 7.4C3.51794 5.9059 4.11147 4.473 5.16796 3.41651C6.22444 2.36003 7.65735 1.7665 9.15145 1.7665C10.6455 1.7665 12.0784 2.36003 13.1349 3.41651C14.1914 4.473 14.7849 5.9059 14.7849 7.4"
-							stroke="black" stroke-width="2" stroke-miterlimit="20" />
-						<path d="M16.534 22.976H1.76904V8.211H16.534V22.976Z" stroke="black" stroke-width="2"
-							stroke-miterlimit="20" />
-					</svg>
-				</a>
+				<div class="logo">
+					<a href="#!">
+						<img src="./img/logo.png" alt="logo">
+					</a>
+				</div>
+				<div class="action">
+					<a href="#!">
+						<svg class='header-icon' width='21' height='20'>
+							<use href='#instagram'></use>
+						</svg>
+					</a>
+					<a href="#!">
+						<svg class='header-icon' width="22" height="22" fill="none">
+							<path d="M15.873 15.884L20.965 20.976" stroke="black" stroke-width="2"
+								stroke-miterlimit="20" />
+							<path
+								d="M18.273 10.088C18.273 12.262 17.4094 14.3469 15.8722 15.8842C14.3349 17.4214 12.25 18.285 10.076 18.285C7.90205 18.285 5.81711 17.4214 4.27987 15.8842C2.74264 14.3469 1.87903 12.262 1.87903 10.088C1.87903 7.91402 2.74264 5.82908 4.27987 4.29184C5.81711 2.75461 7.90205 1.891 10.076 1.891C12.25 1.891 14.3349 2.75461 15.8722 4.29184C17.4094 5.82908 18.273 7.91402 18.273 10.088Z"
+								stroke="black" stroke-width="2" stroke-miterlimit="20" />
+						</svg>
+					</a>
+					<a href="#!">
+						<svg class='header-icon' width="18" height="24" fill="none">
+							<path
+								d="M3.51794 7.4C3.51794 5.9059 4.11147 4.473 5.16796 3.41651C6.22444 2.36003 7.65735 1.7665 9.15145 1.7665C10.6455 1.7665 12.0784 2.36003 13.1349 3.41651C14.1914 4.473 14.7849 5.9059 14.7849 7.4"
+								stroke="black" stroke-width="2" stroke-miterlimit="20" />
+							<path d="M16.534 22.976H1.76904V8.211H16.534V22.976Z" stroke="black" stroke-width="2"
+								stroke-miterlimit="20" />
+						</svg>
+					</a>
+				</div>
 			</div>
 		</div>
-	</div>
-</header>
+	</header>
 	<main class="main">
 		<section class="hero">
-	<div class="container">
-		<div class="hero__wrapper">
-			<div class="hero-content">
-				<div class="hero__title">
-					<h1 class="title title-hero">Fall deeper in love with <br> humanity.</h1>
+			<div class="container">
+				<div class="hero__wrapper">
+					<div class="hero-content">
+						<div class="hero__title">
+							<h1 class="title title-hero">Fall deeper in love with <br> humanity.</h1>
+						</div>
+						<div class="hero-text">
+							<p>
+								Get to know the world through our concise, informative and inspiring guides.
+							</p>
+						</div>
+						<a class="btn hero-btn" href="#!">Shop Now</a>
+					</div>
+					<div class="hero-img">
+						<img src="./img/header/header-img.png" height='521' alt="hero-img">
+					</div>
 				</div>
-				<div class="hero-text">
-					<p>
-						Get to know the world through our concise, informative and inspiring guides.
-					</p>
-				</div>
-				<a class="btn hero-btn" href="#!">Shop Now</a>
 			</div>
-			<div class="hero-img">
-				<img src="./../img/header/header-img.png" height='521' alt="hero-img">
-			</div>
-		</div>
-	</div>
-</section>
+		</section>
 		<section class="advantages">
-	<div class="container">
-		<div class="advantages__wrapper">
-			<div class="advantages-content">
-				<div class="advantages__title">
-					<h2 class="title-1 title-advantages">Our guides explain countries and cultures.</h2>
-				</div>
-				<div class="advantages__text">
-					<p>
-						Are you curious about the world around you? Our guides are for smart global citizens, world
-						travelers
-						and engaged residents who want to gain a deeper understanding of the cultures and societies they
-						care
-						about.
-					</p>
-					<p>
-						Available as ebooks here and on Amazon.
-					</p>
+			<div class="container">
+				<div class="advantages__wrapper">
+					<div class="advantages-content">
+						<div class="advantages__title">
+							<h2 class="title-1 title-advantages">Our guides explain countries and cultures.</h2>
+						</div>
+						<div class="advantages__text">
+							<p>
+								Are you curious about the world around you? Our guides are for smart global citizens,
+								world
+								travelers
+								and engaged residents who want to gain a deeper understanding of the cultures and
+								societies they
+								care
+								about.
+							</p>
+							<p>
+								Available as ebooks here and on Amazon.
+							</p>
+						</div>
+					</div>
+					<div class="advantages-best">
+						<h3 class="title-1 best__title">Our best sellers</h3>
+						<div class="cards">
+							<div class="card">
+								<div class="card-img">
+									<img src="./img/best/best-1.jpg" width='309' height='422' alt="best-img">
+								</div>
+								<p class="card__info">
+									Thalby Guide to French Culture and Heritage
+								</p>
+								<p class="card__price">
+									USD 6.99
+								</p>
+								<button type='button' class="card__btn">
+									Add to cart
+								</button>
+							</div>
+							<div class="card">
+								<div class="card-img card-img--mb2">
+									<img src="./img/best/best-2.jpg" width='314' height='429' alt="best-img">
+								</div>
+								<p class="card__info">
+									Thalby Guide to French Culture and Heritage
+								</p>
+								<p class="card__price">
+									USD 6.99
+								</p>
+								<button type='button' class="card__btn">
+									Add to cart
+								</button>
+							</div>
+							<div class="card">
+								<div class="card-img card-img--mb3">
+									<img src="./img/best/best-3.jpg" width='315' height='430' alt="best-img">
+								</div>
+								<p class="card__info">
+									Thalby Guide to French Culture and Heritage
+								</p>
+								<p class="card__price">
+									USD 6.99
+								</p>
+								<button type='button' class="card__btn">
+									Add to cart
+								</button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="advantages-best">
-				<h3 class="title-1 best__title">Our best sellers</h3>
-				<div class="cards">
-					<div class="card">
-						<div class="card-img">
-							<img src="./../img/best/best-1.jpg" width='309' height='422' alt="best-img">
-						</div>
-						<p class="card__info">
-							Thalby Guide to French Culture and Heritage
-						</p>
-						<p class="card__price">
-							USD 6.99
-						</p>
-						<button type='button' class="card__btn">
-							Add to cart
-						</button>
-					</div>
-					<div class="card">
-						<div class="card-img card-img--mb2">
-							<img src="./../img/best/best-2.jpg" width='314' height='429' alt="best-img">
-						</div>
-						<p class="card__info">
-							Thalby Guide to French Culture and Heritage
-						</p>
-						<p class="card__price">
-							USD 6.99
-						</p>
-						<button type='button' class="card__btn">
-							Add to cart
-						</button>
-					</div>
-					<div class="card">
-						<div class="card-img card-img--mb3">
-							<img src="./../img/best/best-3.jpg" width='315' height='430' alt="best-img">
-						</div>
-						<p class="card__info">
-							Thalby Guide to French Culture and Heritage
-						</p>
-						<p class="card__price">
-							USD 6.99
-						</p>
-						<button type='button' class="card__btn">
-							Add to cart
-						</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
 
-</section>
+		</section>
 		<section class="descr">
-	<h2 class='visually-hidden'>Description of guides</h2>
-	<article class='persone'>
-		<div class="container">
-			<div class="persone__wrapper">
-				<div class="descr__img">
-					<img src="./../img/descr/descr-1.jpg" width='385' height='525' alt="descr-img">
-				</div>
-				<div class="descr-content">
-					<div class="descr__title">
-						<h4 class="title-1">People and Society</h4>
+			<h2 class='visually-hidden'>Description of guides</h2>
+			<article class='persone'>
+				<div class="container">
+					<div class="persone__wrapper">
+						<div class="descr__img">
+							<img src="./img/descr/descr-1.jpg" width='385' height='525' alt="descr-img">
+						</div>
+						<div class="descr-content">
+							<div class="descr__title">
+								<h4 class="title-1">People and Society</h4>
+							</div>
+							<div class="descr-text">
+								<p>
+									Our guides to society deliver all the social insight you need, helping you
+									understand how
+									people
+									live, love and play today and why communities are the way they are.
+								</p>
+							</div>
+							<a class="descr-content__link" href="#!">Shop Society Guides</a>
+						</div>
 					</div>
-					<div class="descr-text">
-						<p>
-							Our guides to society deliver all the social insight you need, helping you understand how
-							people
-							live, love and play today and why communities are the way they are.
-						</p>
-					</div>
-					<a class="descr-content__link" href="#!">Shop Society Guides</a>
 				</div>
-			</div>
-		</div>
-	</article>
-	<article class='persone persone-reverse'>
-		<div class="container">
-			<div class="persone__wrapper wrapper-persone">
-				<div class="descr__img">
-					<img src="./../img/descr/descr-2.jpg" width='385' height='525' alt="descr-img">
-				</div>
-				<div class="descr-content">
-					<div class="descr__title">
-						<h4 class="title-1">Culture and Heritage</h4>
+			</article>
+			<article class='persone persone-reverse'>
+				<div class="container">
+					<div class="persone__wrapper wrapper-persone">
+						<div class="descr__img">
+							<img src="./img/descr/descr-2.jpg" width='385' height='525' alt="descr-img">
+						</div>
+						<div class="descr-content">
+							<div class="descr__title">
+								<h4 class="title-1">Culture and Heritage</h4>
+							</div>
+							<div class="descr-text">
+								<p>
+									As well as covering heritage and tradition, our guides to culture introduce you to
+									the
+									designers, artists and chefs creating at the forefront of today's culture.
+								</p>
+							</div>
+							<a class="descr-content__link" href="#!">Shop Society Guides</a>
+						</div>
 					</div>
-					<div class="descr-text">
-						<p>
-							As well as covering heritage and tradition, our guides to culture introduce you to the
-							designers, artists and chefs creating at the forefront of today's culture.
-						</p>
-					</div>
-					<a class="descr-content__link" href="#!">Shop Society Guides</a>
 				</div>
-			</div>
-		</div>
-	</article>
-	<article class='persone'>
-		<div class="container">
-			<div class="persone__wrapper">
-				<div class="descr__img">
-					<img src="./../img/descr/descr-3.jpg" width='385' height='525' alt="descr-img">
-				</div>
-				<div class="descr-content">
-					<div class="descr__title">
-						<h4 class="title-1">Power and Politics</h4>
+			</article>
+			<article class='persone'>
+				<div class="container">
+					<div class="persone__wrapper">
+						<div class="descr__img">
+							<img src="./img/descr/descr-3.jpg" width='385' height='525' alt="descr-img">
+						</div>
+						<div class="descr-content">
+							<div class="descr__title">
+								<h4 class="title-1">Power and Politics</h4>
+							</div>
+							<div class="descr-text">
+								<p>
+									Our guides to power take you behind the scenes to explore the power dynamics,
+									policies and
+									politics shaping a country's future and its global position.
+								</p>
+							</div>
+							<a class="descr-content__link" href="#!">Coming 2022!</a>
+						</div>
 					</div>
-					<div class="descr-text">
-						<p>
-							Our guides to power take you behind the scenes to explore the power dynamics, policies and
-							politics shaping a country's future and its global position.
-						</p>
-					</div>
-					<a class="descr-content__link" href="#!">Coming 2022!</a>
 				</div>
-			</div>
-		</div>
-	</article>
+			</article>
 
 
-</section>
+		</section>
 		<section class="uniqueness">
-	<div class="container">
-		<h2 class="title-2 uniqueness-title">Some of the features that make Thalby guides unique</h2>
-		<div class="uniqueness-menu">
-			<div class="uniqueness-menu__item">
-				<div class="uniqueness-menu__blue color"></div>
-				<p class="uniqueness-menu__text">Written by locals</p>
-			</div>
-			<div class="uniqueness-menu__item">
-				<div class="uniqueness-menu__green color"></div>
-				<p class="uniqueness-menu__text">Packed with insight</p>
-			</div>
-			<div class="uniqueness-menu__item">
-				<div class="uniqueness-menu__turquoise color"></div>
-				<p class="uniqueness-menu__text">Interviews with diverse voices</p>
-			</div>
-			<div class="uniqueness-menu__item">
-				<div class="uniqueness-menu__brown color"></div>
-				<p class="uniqueness-menu__text">Key facts and etiquette tips</p>
-			</div>
-			<div class="uniqueness-menu__item">
-				<div class="uniqueness-menu__red color"></div>
-				<p class="uniqueness-menu__text">A concise 1-hour read</p>
-			</div>
-			<div class="uniqueness-menu__item">
-				<div class="uniqueness-menu__purple color"></div>
-				<p class="uniqueness-menu__text">Instant <br> digital access</p>
-			</div>
-		</div>
-	</div>
-</section>
-		<section class="interviews">
-	<div class="container">
-		<h2 class="title-1 interviews-title">Each Thalby guide includes interviews with a range of fascinating voices,
-			such as</h2>
-	</div>
-	<div class="gray-background">
-		<div class="container profiles">
-			<div class="profile">
-				<img class='profile__img' src="./../img/profile/camille.png" width='288' height='351'
-					alt="camille-foto">
-				<p class="profile__quote">"I don’t like things to be conventional. If it’s too nice, I bring disorder."
-				</p>
-				<p class="profile__name">Camille Muller,<br>Landscape Designer, France</p>
-				<a class="profile__link" href="#!">Discover</a>
-			</div>
-			<div class="profile">
-				<img class='profile__img' src="./../img/profile/sonia.png" width='288' height='351' alt="camille-foto">
-				<p class="profile__quote">"Magic is not magic in the sense that I can just wish for anything."
-				</p>
-				<p class="profile__name">Sonia Kowalewski,<br>Witch, Germany</p>
-				<a class="profile__link" href="#!">Discover</a>
-			</div>
-			<div class="profile">
-				<img class='profile__img' src="./../img/profile/lilly.png" width='288' height='351' alt="camille-foto">
-				<p class="profile__quote">"I was eight years old when I entered my first competition. I won it."
-				</p>
-				<p class="profile__name">Lilly Stoephasius,<br>Skateboarder, Germany</p>
-				<a class="profile__link" href="#!">Discover</a>
-			</div>
-		</div>
-	</div>
-
-</section>
-		<section class="contacts">
-	<div class="container">
-		<div class="contacts__wrapper">
-			<div class="contacts-row">
-				<h2 class="title-1">Keep in touch</h2>
-				<p class="contacts__text">Get our travel advice, global views and travel freebies in your inbox</p>
-			</div>
-			<form class="form">
-				<div class="form__wrapper">
-					<div class="form-iputs">
-						<input class='input input-50' type="text" name='First Name' placeholder='First Name'>
-						<input class='input input-50' type="text" name='Last Name' placeholder='Last Name'>
+			<div class="container">
+				<h2 class="title-2 uniqueness-title">Some of the features that make Thalby guides unique</h2>
+				<div class="uniqueness-menu">
+					<div class="uniqueness-menu__item">
+						<div class="uniqueness-menu__blue color"></div>
+						<p class="uniqueness-menu__text">Written by locals</p>
 					</div>
-					<input class='input' type="email" name='Email' placeholder='Email'>
-					<button class="form__btn btn">Subscribe</button>
+					<div class="uniqueness-menu__item">
+						<div class="uniqueness-menu__green color"></div>
+						<p class="uniqueness-menu__text">Packed with insight</p>
+					</div>
+					<div class="uniqueness-menu__item">
+						<div class="uniqueness-menu__turquoise color"></div>
+						<p class="uniqueness-menu__text">Interviews with diverse voices</p>
+					</div>
+					<div class="uniqueness-menu__item">
+						<div class="uniqueness-menu__brown color"></div>
+						<p class="uniqueness-menu__text">Key facts and etiquette tips</p>
+					</div>
+					<div class="uniqueness-menu__item">
+						<div class="uniqueness-menu__red color"></div>
+						<p class="uniqueness-menu__text">A concise 1-hour read</p>
+					</div>
+					<div class="uniqueness-menu__item">
+						<div class="uniqueness-menu__purple color"></div>
+						<p class="uniqueness-menu__text">Instant <br> digital access</p>
+					</div>
 				</div>
-			</form>
-		</div>
-	</div>
-</section>
+			</div>
+		</section>
+		<section class="interviews">
+			<div class="container">
+				<h2 class="title-1 interviews-title">Each Thalby guide includes interviews with a range of fascinating
+					voices,
+					such as</h2>
+			</div>
+			<div class="gray-background">
+				<div class="container profiles">
+					<div class="profile">
+						<img class='profile__img' src="./img/profile/camille.png" width='288' height='351'
+							alt="camille-foto">
+						<p class="profile__quote">"I don’t like things to be conventional. If it’s too nice, I bring
+							disorder."
+						</p>
+						<p class="profile__name">Camille Muller,<br>Landscape Designer, France</p>
+						<a class="profile__link" href="#!">Discover</a>
+					</div>
+					<div class="profile">
+						<img class='profile__img' src="./img/profile/sonia.png" width='288' height='351'
+							alt="camille-foto">
+						<p class="profile__quote">"Magic is not magic in the sense that I can just wish for anything."
+						</p>
+						<p class="profile__name">Sonia Kowalewski,<br>Witch, Germany</p>
+						<a class="profile__link" href="#!">Discover</a>
+					</div>
+					<div class="profile">
+						<img class='profile__img' src="./img/profile/lilly.png" width='288' height='351'
+							alt="camille-foto">
+						<p class="profile__quote">"I was eight years old when I entered my first competition. I won it."
+						</p>
+						<p class="profile__name">Lilly Stoephasius,<br>Skateboarder, Germany</p>
+						<a class="profile__link" href="#!">Discover</a>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<section class="contacts">
+			<div class="container">
+				<div class="contacts__wrapper">
+					<div class="contacts-row">
+						<h2 class="title-1">Keep in touch</h2>
+						<p class="contacts__text">Get our travel advice, global views and travel freebies in your inbox
+						</p>
+					</div>
+					<form class="form">
+						<div class="form__wrapper">
+							<div class="form-iputs">
+								<input class='input input-50' type="text" name='First Name' placeholder='First Name'>
+								<input class='input input-50' type="text" name='Last Name' placeholder='Last Name'>
+							</div>
+							<input class='input' type="email" name='Email' placeholder='Email'>
+							<button class="form__btn btn">Subscribe</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
 	</main>
 	<footer class="footer">
-	<div class="container">
-		<div class="footer__wrapper">
-			<div class="footer-col-1">
-				<div class="footer__logo">
-					<a href="#!"><img src="./../img/logo-footer.svg" alt="footer-logo"></a>
+		<div class="container">
+			<div class="footer__wrapper">
+				<div class="footer-col-1">
+					<div class="footer__logo">
+						<a href="#!"><img src="./img/logo-footer.svg" alt="footer-logo"></a>
+					</div>
+					<div class="footer__social">
+						<a href="#!"><img src="./img/social/faceebok.svg" alt="faceebok-icon"></a>
+						<a href="#!"><img src="./img/social/insta.svg" alt="insta-icon"></a>
+						<a href="#!"><img src="./img/social/twitter.svg" alt="twitter-icon"></a>
+					</div>
 				</div>
-				<div class="footer__social">
-					<a href="#!"><img src="./../img/social/faceebok.svg" alt="faceebok-icon"></a>
-					<a href="#!"><img src="./../img/social/insta.svg" alt="insta-icon"></a>
-					<a href="#!"><img src="./../img/social/twitter.svg" alt="twitter-icon"></a>
+				<div class="footer-col-2">
+					<div class="footer-col-2__wrapper">
+						<h4 class="footer-title title-3">ABOUT</h4>
+						<ul class="footer-nav item">
+							<li class="footer-nav__item">
+								<a href="#!">About Us</a>
+							</li>
+							<li class="footer-nav__item">
+								<a href="#!">Privacy Policy</a>
+							</li>
+							<li class="footer-nav__item">
+								<a href="#!">Terms and Conditions</a>
+							</li>
+							<li class="footer-nav__item">
+								<a href="#!">Write for Us</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-col-2__wrapper">
+						<h4 class="footer-title title-3">CONTACT</h4>
+						<ul class="footer-contact item">
+							<li class="footer-contact__item">
+								<a href="mailto:Emailhi@thalby.com">Email hi@thalby.com</a>
+							</li>
+							<li class="footer-contact__item">
+								<a href="#!">Help</a>
+							</li>
+						</ul>
+					</div>
+
+
 				</div>
 			</div>
-			<div class="footer-col-2">
-				<div class="footer-col-2__wrapper">
-					<h4 class="footer-title title-3">ABOUT</h4>
-					<ul class="footer-nav item">
-						<li class="footer-nav__item">
-							<a href="#!">About Us</a>
-						</li>
-						<li class="footer-nav__item">
-							<a href="#!">Privacy Policy</a>
-						</li>
-						<li class="footer-nav__item">
-							<a href="#!">Terms and Conditions</a>
-						</li>
-						<li class="footer-nav__item">
-							<a href="#!">Write for Us</a>
-						</li>
-					</ul>
-				</div>
-				<div class="footer-col-2__wrapper">
-					<h4 class="footer-title title-3">CONTACT</h4>
-					<ul class="footer-contact item">
-						<li class="footer-contact__item">
-							<a href="mailto:Emailhi@thalby.com">Email hi@thalby.com</a>
-						</li>
-						<li class="footer-contact__item">
-							<a href="#!">Help</a>
-						</li>
-					</ul>
-				</div>
 
-
+			<div class="footer-copyright">
+				<p>
+					Thalby LLC © 2021
+				</p>
 			</div>
 		</div>
 
-		<div class="footer-copyright">
-			<p>
-				Thalby LLC © 2021
-			</p>
-		</div>
-	</div>
-
-</footer>
+	</footer>
 	<script src="./js/main.js"></script>
 
 </body>
